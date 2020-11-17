@@ -1,0 +1,159 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    margin:0; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+      /* .navbar .nav-item :hover{
+        margin:0; 
+        background-color:#ddd;
+        color: black !important;
+      } */
+.carousel-item {
+  height: 500px; }
+
+.carousel-img-1 {
+  background: url(../img/cover4.jpg);
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url(../img/cover5.jpg);
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url(../img/aziz11.jpg);
+  background-size: cover; }
+.about{
+ background-color: #13d1b5c9;
+}
+#education{
+  background-color: #C0D8D5;
+}
+.education-font-color{
+  color: chocolate;
+}
+.education-background{
+  color: chocolate;
+}
+.circle{
+  background-color:chocolate ;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+
+}
+.rounded-circle{
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+}
+.card-body{
+  background-color: #D1E4F5;
+}
+
+.project{
+  background-color:#63AFEF;
+}
+
+#portfolio img {
+  min-height: 250px; }
+
+/*footer section design*/
+.icon-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgb(218, 200, 200);
+  font-size: 30px;
+  text-align: center; 
+  text-decoration: none; 
+  color: rgb(19, 177, 53); 
+  margin-left: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+.icon-circle:hover{
+  background-color: black;
+  color: white;
+}
+#contact{
+  background-color: black;
+}
+
+
+
+
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#getstarted {
+  position: relative;
+  background: url("../img/bg1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-video {
+  position: relative;
+  background: url("../img/people.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #home-video .dark-overlay .fa {
+      font-size: 50px; }
+
+
+#copyright {
+  background: #000; }
+
+/*About us page*/
+#page-header {
+  background: url(../img/image1.jpeg);
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#icon-boxes .fa {
+  font-size: 50px;
+  margin-bottom: 5px; }
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000; }
+
+/*Services*/
+#services-page-header {
+  background: url(../img/image3.jpeg);
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getstarted {
+    min-height: 300px; } }
+
+@media (max-width: 575px) {
+  .carousel h2 {
+    font-size: 2.5rem; } }
